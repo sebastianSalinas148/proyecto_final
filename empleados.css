@@ -25,7 +25,7 @@
     margin: 0 0 20px 0;
 }
 
-/* ==== TOPBAR ==== */
+
 
 .topbar {
     display: flex;
@@ -68,7 +68,7 @@
     transform: translateY(-2px);
 }
 
-/* Modal */
+
 .modal {
     display: none;
     position: fixed;
