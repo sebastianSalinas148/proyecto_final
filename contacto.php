@@ -19,7 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 
     if (empty($errors)) {
-        // Evitar inyección de cabeceras
+        
         $safe_name = preg_replace("/([\r\n])+/", ' ', $nombre);
         $safe_email = preg_replace("/([\r\n])+/", ' ', $email);
         $safe_asunto = preg_replace("/([\r\n])+/", ' ', $asunto);
@@ -98,13 +98,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 
                 <?php if (!empty($success)): ?>
                     <div class="alert success" style="margin-bottom: 30px;">
-                        <span style="font-size: 20px;">✅</span> <?php echo htmlspecialchars($success); ?>
+                        <span style="font-size: 20px;"></span> <?php echo htmlspecialchars($success); ?>
                     </div>
                 <?php endif; ?>
 
                 <?php if (!empty($errors)): ?>
                     <div class="alert error" style="margin-bottom: 30px;">
-                        <strong>❌ Por favor corrige los siguientes errores:</strong>
+                        <strong> Por favor corrige los siguientes errores:</strong>
                         <ul>
                             <?php foreach ($errors as $e): ?>
                                 <li><?php echo htmlspecialchars($e); ?></li>
