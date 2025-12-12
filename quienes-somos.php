@@ -110,7 +110,7 @@
                     <div class="team-grid">
                         <div class="team-member">
                             <div class="team-member-image">
-                                <img src="https://via.placeholder.com/150/0c5f25/ffffff?text=Sebastian" alt="Sebastian Salinas">
+                                <img src="https://mediaproxy.tvtropes.org/width/1200/https://static.tvtropes.org/pmwiki/pub/images/e68a2c53_0ed5_4979_bb24_a1842f76122e.jpeg" alt="Sebastian Salinas">
                                 <div class="team-member-overlay">
                                     <p>Fundador y CEO</p>
                                 </div>
@@ -122,7 +122,7 @@
 
                         <div class="team-member">
                             <div class="team-member-image">
-                                <img src="https://via.placeholder.com/150/0c5f25/ffffff?text=Soporte" alt="Equipo de Soporte">
+                                <img src="https://www.axondigital.mx/wp-content/uploads/2020/06/logo-de-enmedio.jpg" alt="Equipo de Soporte">
                                 <div class="team-member-overlay">
                                     <p>Siempre Disponibles</p>
                                 </div>
@@ -134,7 +134,7 @@
 
                         <div class="team-member">
                             <div class="team-member-image">
-                                <img src="https://via.placeholder.com/150/0c5f25/ffffff?text=Mantenimiento" alt="Equipo de Mantenimiento">
+                                <img src="https://www.segurmaniazurekin.eus/a/2023/02/segurmania_riesgos_actividades_mantenimiento_destacada.jpg" alt="Equipo de Mantenimiento">
                                 <div class="team-member-overlay">
                                     <p>Excelencia</p>
                                 </div>
