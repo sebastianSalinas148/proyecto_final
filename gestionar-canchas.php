@@ -519,7 +519,7 @@ if (!isset($canchas) || !is_array($canchas)) {
     </div>
 
     <script>
-        // Funciones del Modal Agregar/Editar
+        
         function abrirModalAgregar() {
             document.getElementById('modalTitle').textContent = 'Agregar Cancha';
             document.getElementById('action').value = 'add';
@@ -545,7 +545,7 @@ if (!isset($canchas) || !is_array($canchas)) {
             document.getElementById('modalForm').classList.remove('active');
         }
 
-        // Funciones del Modal Eliminar
+        
         function abrirModalEliminar(id, nombre) {
             document.getElementById('nombreCancha').textContent = nombre;
             document.getElementById('idEliminar').value = id;
@@ -556,7 +556,7 @@ if (!isset($canchas) || !is_array($canchas)) {
             document.getElementById('modalEliminar').classList.remove('active');
         }
 
-        // Cerrar modal al hacer clic fuera
+       
         window.addEventListener('click', function(event) {
             const modalForm = document.getElementById('modalForm');
             const modalEliminar = document.getElementById('modalEliminar');
