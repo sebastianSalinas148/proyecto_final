@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>FutbolSebasPro - Alquiler de Canchas</title>
+    <link rel="stylesheet" href="estilos.css?v=6">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+
+    <header class="header">
+    <div class="header-container">
+
+        <div class="logo">
+            <img src="https://www.jetpunk.com//img/user-img/51/51cb1ce904-235.webp" alt="Logo">
+            <span>FutbolSebasPro</span>
+        </div>
+
+        <nav class="menu">
+            <a href="#inicio">Inicio</a>
+            <a href="quienes-somos.php">Quiénes Somos</a>
+            <a href="#beneficios">Beneficios</a>
+            <a href="#canchas">Canchas</a>
+            <a href="contacto.php">Contacto</a>
+        </nav>
+
+       
+        <div class="acciones">
+            <a class="btn-login" href="login.html">Iniciar Sesión</a>
+
+       <a class="btn-registro" href="registro.html">Registrarse</a>
+        </div>
+
+    </div>
+</header>
+
+
+
+    
+    <!-- CARRUSEL DE IMÁGENES -->
+    <section class="hero-carousel">
+        <div class="carousel-container">
+            <div class="carousel-wrapper">
+                <div class="carousel-slide active">
+                    <img src="https://donpotrero.com/img/posts/2/medidas_lg.jpg" alt="Cancha Principal">
+                    <div class="slide-overlay"></div>
+                    <div class="slide-content">
+                        <h1>Cancha Principal</h1>
+                        <p>Fútbol 11 - Pasto Natural de Primera Calidad</p>
+                    </div>
+                </div>
+
+                <div class="carousel-slide">
+                    <img src="https://i0.wp.com/www.construcanchas.com/wp-content/uploads/2021/03/fondo-3.jpg?w=1280&ssl=1" alt="Cancha Sintética">
+                    <div class="slide-overlay"></div>
+                    <div class="slide-content">
+                        <h1>Cancha Sintética</h1>
+                        <p>Fútbol 7 - Pasto Sintético de Última Generación</p>
+                    </div>
+                </div>
+
+                <div class="carousel-slide">
+                    <img src="https://www.sportbs.es/wp-content/uploads/2019/05/Caracteristicas-de-campos-de-futbol-pistas-tipo-indoor.webp" alt="Cancha Indoor">
+                    <div class="slide-overlay"></div>
+                    <div class="slide-content">
+                        <h1>Cancha Indoor</h1>
+                        <p>Fútbol 5 - Techada con Iluminación LED de Alto Rendimiento</p>
+                    </div>
+                </div>
+
+                <div class="carousel-slide">
+                    <img src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=900&h=600&fit=crop" alt="Cancha de Entrenamiento">
+                    <div class="slide-overlay"></div>
+                    <div class="slide-content">
+                        <h1>Cancha de Entrenamiento</h1>
+                        <p>Fútbol 7 - Especializada para Sesiones de Práctica</p>
+                    </div>
+                </div>
+            </div>
+
+            
+            <button class="carousel-btn prev" onclick="prevSlide()">❮</button>
+            <button class="carousel-btn next" onclick="nextSlide()">❯</button>
+
+            
+            <div class="carousel-dots">
+                <span class="dot active" onclick="currentSlide(0)"></span>
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+
+           
+            <div class="carousel-actions">
+                <a class="btn-ver" href="canchas.php">Ver Canchas</a>
+                <a class="btn-regresar" href="registro.php">Registrarse</a>
+            </div>
+        </div>
+    </section>
+
+    
+    
+
+  
+    <section class="beneficios">
+        <h2>La Mejor Experiencia</h2>
+        <p>Te ofrecemos las mejores instalaciones y el servicio más confiable</p>
+
+        <div class="beneficios-grid">
+
+            <div class="beneficio-card">
+                <img src="https://reservas.mcd.gob.gt/img/logo_reservaciones.png" alt="">
+                <h3>Reserva Online</h3>
+                <p>Realiza tu reserva desde cualquier dispositivo</p>
+            </div>
+
+            <div class="beneficio-card">
+                <img src="https://images.icon-icons.com/2642/PNG/512/google_map_location_logo_icon_159350.png" alt="">
+                <h3>Múltiples Ubicaciones</h3>
+                <p>Canchas en distintas zonas de la ciudad</p>
+            </div>
+
+            <div class="beneficio-card">
+                <img src="https://shop.carmen24.es/wp-content/uploads/2020/12/pago-seguro-garantizado-600x180.png" alt="">
+                <h3>Pago Seguro</h3>
+                <p>Transacciones rápidas y protegidas</p>
+            </div>
+
+            <div class="beneficio-card">
+                <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/24-7-services-logo-design-template-abd47f9c8c3f6509ede5e9a70dd124e3_screen.jpg?ts=1732357231" alt="">
+                <h3>24/7 Disponible</h3>
+                <p>Abierto todo el día para tu comodidad</p>
+            </div>
+
+        </div>
+    </section>
+
+    
+    <section class="canchas" id="canchas">
+        <div class="canchas-container">
+            <h2>⚽ Instalaciones de Primera Calidad</h2>
+            <p class="canchas-subtitle">Descubre nuestras canchas profesionales con los mejores precios</p>
+
+            <div class="canchas-grid-premium">
+
+               
+                <div class="cancha-card-premium">
+                    <div class="cancha-imagen">
+                        <img src="https://donpotrero.com/img/posts/2/medidas_lg.jpg" alt="Cancha Principal">
+                        <div class="badge-rating">⭐ 4.9</div>
+                        <div class="badge-disponible">Disponible</div>
+                    </div>
+                    <div class="cancha-info">
+                        <h3>Cancha Principal</h3>
+                        <p class="cancha-tipo">🏟️ Fútbol 11</p>
+                        <div class="cancha-specs">
+                            <span class="spec">👥 22 jugadores máximo</span>
+                            <span class="spec">📏 Superficie: Pasto Natural</span>
+                        </div>
+                        <p class="cancha-descripcion">Cancha de fútbol profesional con excelentes condiciones para competencias y entrenamientos.</p>
+                        <div class="cancha-footer-card">
+                            <div class="precio-card">
+                                <span class="cantidad">$50</span>
+                                <span class="unidad">/hora</span>
+                            </div>
+                            <a href="reserva.php?cancha_id=1" class="btn-reservar-premium">🗓️ Reservar</a>
+                        </div>
+                    </div>
+                </div>
+
+           
+                <div class="cancha-card-premium">
+                    <div class="cancha-imagen">
+                        <img src="https://i0.wp.com/www.construcanchas.com/wp-content/uploads/2021/03/fondo-3.jpg?w=1280&ssl=1" alt="Cancha Sintética A">
+                        <div class="badge-rating">⭐ 4.8</div>
+                        <div class="badge-disponible">Disponible</div>
+                    </div>
+                    <div class="cancha-info">
+                        <h3>Cancha Sintética A</h3>
+                        <p class="cancha-tipo">⚽ Fútbol 7</p>
+                        <div class="cancha-specs">
+                            <span class="spec">👥 14 jugadores máximo</span>
+                            <span class="spec">📏 Superficie: Pasto Sintético</span>
+                        </div>
+                        <p class="cancha-descripcion">Cancha con pasto sintético de última generación, perfecta para entrenamientos intensos.</p>
+                        <div class="cancha-footer-card">
+                            <div class="precio-card">
+                                <span class="cantidad">$35</span>
+                                <span class="unidad">/hora</span>
+                            </div>
+                            <a href="reserva.php?cancha_id=2" class="btn-reservar-premium">🗓️ Reservar</a>
+                        </div>
+                    </div>
+                </div>
+
+            
+                <div class="cancha-card-premium">
+                    <div class="cancha-imagen">
+                        <img src="https://www.sportbs.es/wp-content/uploads/2019/05/Caracteristicas-de-campos-de-futbol-pistas-tipo-indoor.webp" alt="Cancha Indoor">
+                        <div class="badge-rating">⭐ 4.7</div>
+                        <div class="badge-disponible">Disponible</div>
+                    </div>
+                    <div class="cancha-info">
+                        <h3>Cancha Indoor</h3>
+                        <p class="cancha-tipo">⚽ Fútbol 5</p>
+                        <div class="cancha-specs">
+                            <span class="spec">👥 10 jugadores máximo</span>
+                            <span class="spec">📏 Cubierta: Techada</span>
+                        </div>
+                        <p class="cancha-descripcion">Cancha cubierta con iluminación LED de alta potencia, ideal para jugar en cualquier clima.</p>
+                        <div class="cancha-footer-card">
+                            <div class="precio-card">
+                                <span class="cantidad">$25</span>
+                                <span class="unidad">/hora</span>
+                            </div>
+                            <a href="reserva.php?cancha_id=3" class="btn-reservar-premium">🗓️ Reservar</a>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="cancha-card-premium">
+                    <div class="cancha-imagen">
+                        <img src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=400&h=250&fit=crop" alt="Cancha de Entrenamiento">
+                        <div class="badge-rating">⭐ 4.6</div>
+                        <div class="badge-disponible">Disponible</div>
+                    </div>
+                    <div class="cancha-info">
+                        <h3>Cancha de Entrenamiento</h3>
+                        <p class="cancha-tipo">⚽ Fútbol 7</p>
+                        <div class="cancha-specs">
+                            <span class="spec">👥 12 jugadores máximo</span>
+                            <span class="spec">📏 Superficie: Pasto Sintético</span>
+                        </div>
+                        <p class="cancha-descripcion">Cancha especializada para entrenamientos y sesiones de práctica con excelentes instalaciones.</p>
+                        <div class="cancha-footer-card">
+                            <div class="precio-card">
+                                <span class="cantidad">$30</span>
+                                <span class="unidad">/hora</span>
+                            </div>
+                            <a href="reserva.php?cancha_id=4" class="btn-reservar-premium">🗓️ Reservar</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="canchas-cta">
+                <p>¿Quieres ver todas nuestras canchas y hacer una reserva?</p>
+                <a href="canchas.php" class="btn-ver-todas">Ver Todas las Canchas →</a>
+            </div>
+        </div>
+    </section>
+
+   
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>FutbolSebasPro</h4>
+                    <p>Empresa de alquiler de canchas de fútbol de calidad profesional.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Visitante</h4>
+                    <p>Bienvenido a nuestro portal</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Fecha</h4>
+                    <p id="footer-fecha"></p>
+                </div>
+            </div>
+            <div class="footer-divider"></div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> FutbolSebasPro - Todos los derechos reservados</p>
+                <p>Desarrollado por: <strong>Sebastian Salinas</strong></p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+      
+        document.getElementById('year').textContent = new Date().getFullYear();
+        
+       
+        const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+        const hoy = new Date().toLocaleDateString('es-ES', options);
+        document.getElementById('footer-fecha').textContent = hoy.charAt(0).toUpperCase() + hoy.slice(1);
+    </script>
+</body>
+</html>
+
