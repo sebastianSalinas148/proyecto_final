@@ -2,7 +2,7 @@
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-    include "conexion.php"; /
+    include "conexion.php"; 
 
     $nombre = $_POST["nombre"];
     $usuario = $_POST["usuario"];
