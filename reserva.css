@@ -1,4 +1,4 @@
-/* ==== RESERVA.CSS ==== */
+
 
 .reserva-container {
     max-width: 900px;
@@ -25,7 +25,7 @@
     font-size: 16px;
 }
 
-/* ==== ALERTAS ==== */
+
 
 .alert {
     padding: 15px 20px;
@@ -44,7 +44,7 @@
     font-weight: 600;
 }
 
-/* ==== FORMULARIO ==== */
+
 
 .form-reserva {
     display: flex;
@@ -85,7 +85,7 @@
     gap: 20px;
 }
 
-/* ==== RESUMEN RESERVA ==== */
+
 
 .resumen-reserva {
     background: #f5f5f5;
@@ -127,7 +127,7 @@
     color: #1a4d1a;
 }
 
-/* ==== BOTONES FORMULARIO ==== */
+
 
 .form-footer {
     display: flex;
@@ -169,7 +169,7 @@
     box-shadow: 0 5px 15px rgba(26, 77, 26, 0.3);
 }
 
-/* ==== CONFIRMACION ==== */
+
 
 .confirmacion-container {
     max-width: 600px;
