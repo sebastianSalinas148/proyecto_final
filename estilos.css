@@ -33,7 +33,7 @@ body {
     font-weight: bold;
 }
 
-/* HERO */
+
 .hero {
     background: #0c5f25;
     color: white;
@@ -61,7 +61,7 @@ body {
     font-weight: bold;
 }
 
-/* ===== CARRUSEL DE IMÁGENES ===== */
+
 
 .hero-carousel {
     width: 100%;
@@ -166,7 +166,7 @@ body {
     }
 }
 
-/* Botones de navegación */
+
 .carousel-btn {
     position: absolute;
     top: 50%;
@@ -195,7 +195,7 @@ body {
     right: 20px;
 }
 
-/* Puntos de navegación (dots) */
+
 .carousel-dots {
     position: absolute;
     bottom: 100px;
@@ -224,7 +224,7 @@ body {
     background: rgba(255, 255, 255, 0.8);
 }
 
-/* Botones de acción */
+
 .carousel-actions {
     position: absolute;
     bottom: 30px;
@@ -576,9 +576,7 @@ body {
     border-color: #16b349;
 }
 
-/* =======================================
-   ESTILOS EXCLUSIVOS PARA SECCIÓN DE CANCHAS
-   ======================================= */
+
 
 section.canchas {
     background: linear-gradient(135deg, #f0f4f8 0%, #e8f0ed 100%);
@@ -864,7 +862,7 @@ section.canchas h2 {
     }
 }
 
-/* --- Estilos para páginas estáticas: Quiénes Somos y Contacto --- */
+
 
 .page-container {
     padding: 0;
@@ -950,7 +948,7 @@ section.canchas h2 {
     font-weight: 700;
 }
 
-/* ===== ESTILOS MEJORADOS DE CONTACTO ===== */
+
 
 .contacto-hero {
     position: relative;
@@ -1357,7 +1355,7 @@ section.canchas h2 {
     }
 }
 
-/* ===== ESTILOS MEJORADOS QUIÉNES SOMOS ===== */
+
 
 .quienes-hero {
     position: relative;
@@ -1762,7 +1760,7 @@ section.canchas h2 {
     transform: translateY(-3px);
 }
 
-/* Responsive */
+
 @media (max-width: 1024px) {
     .proposito-grid,
     .razones-grid {
