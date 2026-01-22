@@ -84,7 +84,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     </header>
 
     <main class="page-container">
-        <!-- HERO SECTION CONTACTO -->
+       
         <section class="contacto-hero">
             <div class="contacto-hero-overlay"></div>
             <div class="contacto-hero-content">
